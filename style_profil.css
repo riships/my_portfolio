@@ -1,0 +1,64 @@
+.sec_1 {
+    height: 80vh;
+    width: 100%;
+}
+
+.dv_profil_1 {
+    width: 50%;
+    height: 80vh;
+    float: left;
+}
+
+.profile_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: #ECFFf1;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red, yellow) 1;
+    margin-top: 100px;
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
+
+.profile_img:hover {
+    box-shadow: 0 5px 15px black, inset 0 0 15px white;
+    transition-duration: .35s;
+}
+
+.profile_img_chld {
+    max-width: 100%;
+    transform: rotate(45deg);
+    transition-duration: 500ms;
+}
+
+.profile_img_chld:hover {
+    transform: scale(1.7) rotate(45deg);
+}
+
+.dv_profil_2 {
+    width: 50%;
+    float: right;
+
+}
+
+.dv_profil_2_chld {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-image: linear-gradient(to bottom, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) 1;
+}
+
+.hding_profil {
+    font-size: 72px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
