@@ -7,11 +7,6 @@
     font-family: 'Unbounded', cursive;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
 header {
     height: 80px;
     width: 100%;
