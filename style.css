@@ -147,7 +147,7 @@ header {
         margin: 0 0 280px 0;
         padding: 80px 0;
         list-style: none;
-        background-color: transparent;
+        background-color: rgba(241, 241, 248, 0.829);
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .35s;
     }
