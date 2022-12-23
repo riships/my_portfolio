@@ -1,11 +1,9 @@
 .sec_1 {
-    height: 80vh;
     width: 100%;
 }
 
 .dv_profil_1 {
     width: 50%;
-    height: 80vh;
     float: left;
 }
 
@@ -18,7 +16,7 @@
     background-color: #ECFFf1;
     border-width: 5px;
     border-style: solid;
-    border-image: linear-gradient(to right, red, yellow) 1;
+    border-image: linear-gradient(to right, #30CFD0 0%, #330867 100%) 1;
     margin-top: 100px;
     transform: rotate(-45deg);
     overflow: hidden;
@@ -45,20 +43,20 @@
 
 }
 
-.dv_profil_2_chld {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-    border-left-width: 3px;
-    border-left-style: solid;
-    border-image: linear-gradient(to bottom, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) 1;
+.hding_profil {
+    font-size: 40px;
+    padding-left: 10px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.hding_profil {
-    font-size: 72px;
+.hding2_profil {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 35px;
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
