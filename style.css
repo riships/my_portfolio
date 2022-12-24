@@ -33,9 +33,11 @@ header {
     }
 
     .hdr_menu {
+
         width: 75%;
         float: right;
         margin: 20px auto;
+
     }
 
     .hdr_menu ul li {
@@ -131,6 +133,8 @@ header {
         width: 75%;
         float: right;
         margin: 0px auto;
+        position: relative;
+        z-index: 999;
     }
 
     .menu_box {
@@ -145,7 +149,6 @@ header {
         background-color: rgba(241, 241, 248, 0.829);
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .35s;
-        z-index:0;
     }
 
     .mnu_link {

@@ -1,6 +1,8 @@
 .sec_1 {
     width: 100%;
-    background-color: #30CFD0;
+    position: relative;
+    z-index: -999;
+    top: 0;
 }
 
 .dv_profil_1 {
