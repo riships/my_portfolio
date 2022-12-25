@@ -1,8 +1,8 @@
 .sec_1 {
     width: 100%;
     position: relative;
-    z-index: -999;
     top: 0;
+    z-index: -999;
 }
 
 .dv_profil_1 {
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 250px;
-    width: 250px;
+    max-width: 250px;
     background-color: #ECFFf1;
     border-width: 5px;
     border-style: solid;
@@ -31,13 +31,13 @@
 }
 
 .profile_img_chld {
-    max-width: 100%;
+    max-width: 80%;
     transform: rotate(45deg);
     transition-duration: 500ms;
 }
 
 .profile_img_chld:hover {
-    transform: scale(1.7) rotate(45deg);
+    transform: scale(1.8) rotate(45deg);
 }
 
 .dv_profil_2 {
