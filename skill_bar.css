@@ -1,17 +1,7 @@
-.sec_2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
 .sklls {
     height: 250px;
     width: 250px;
     /* background-color: aqua; */
-    position: relative;
 }
 
 .outer_skill {
@@ -43,16 +33,61 @@
     color: #555;
 }
 
-circle {
+.crcle {
     fill: none;
     stroke: url(#GradientColor);
     stroke-width: 25px;
-    stroke-dasharray: 440px;
-    stroke-dashoffset: 0px;
+    stroke-dasharray: 705;
+    stroke-dashoffset: 705;
+    animation: skilfill 1.5s linear forwards;
+}
+
+.crcle1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 25px;
+    stroke-dasharray: 705;
+    stroke-dashoffset: 705;
+    animation: skilfill1 1.5s linear forwards;
+
+}
+
+.crcle2 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 25px;
+    stroke-dasharray: 705;
+    stroke-dashoffset: 705;
+    animation: skilfill2 1.5s linear forwards;
+
+}
+
+.skill_parent_div {
+    position: relative;
+    height: 280px;
 }
 
 svg {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+}
+
+@keyframes skilfill {
+    100% {
+        stroke-dashoffset: 247;
+    }
+}
+
+@keyframes skilfill1 {
+    100% {
+        stroke-dashoffset: 177;
+    }
+}
+
+@keyframes skilfill2 {
+    100% {
+        stroke-dashoffset: 106;
+    }
 }

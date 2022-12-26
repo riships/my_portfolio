@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,74 +11,104 @@
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="skill_bar.css" />
     <title>Portfolio-Rishi</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="hdr_logo" align="center">
-        <a href="#home">
-          <img src="logo.png" alt="logo" height="80" class="logo"
-        /></a>
-      </div>
+        <div class="hdr_logo" align="center">
+            <a href="#home">
+                <img src="logo.png" alt="logo" height="80" class="logo" /></a>
+        </div>
 
-      <div class="hamburger-menu hdr_menu">
-        <input name="toggle" type="checkbox" id="menu_toggle" />
-        <label for="menu_toggle" class="menu_btn">
-          <span></span>
-        </label>
-        <ul class="menu_box">
-          <li><a href="#home" class="mnu_link">Home</a></li>
-          <li><a href="#about" class="mnu_link">About</a></li>
-          <li><a href="#projects" class="mnu_link">Projects</a></li>
-          <li><a href="#contact" class="mnu_link">Contact</a></li>
-          <li><a href="#support" class="mnu_link">Support</a></li>
-          <li><a href="#skills" class="mnu_link">Skills</a></li>
-        </ul>
-      </div>
+        <div class="hamburger-menu hdr_menu">
+            <input name="toggle" type="checkbox" id="menu_toggle" />
+            <label for="menu_toggle" class="menu_btn">
+                <span></span>
+            </label>
+            <ul class="menu_box">
+                <li><a href="#home" class="mnu_link">Home</a></li>
+                <li><a href="#about" class="mnu_link">About</a></li>
+                <li><a href="#projects" class="mnu_link">Projects</a></li>
+                <li><a href="#contact" class="mnu_link">Contact</a></li>
+                <li><a href="#support" class="mnu_link">Support</a></li>
+                <li><a href="#skills" class="mnu_link">Skills</a></li>
+            </ul>
+        </div>
     </header>
     <section class="sec_1" id="home">
-      <div class="dv_profil_1 col-6">
-        <div class="profile_img">
-          <img
-            src="my profile.jpg"
-            alt="profile_img"
-            class="profile_img_chld"
-          />
+        <div class="dv_profil_1 col-6">
+            <div class="profile_img">
+                <img src="my profile.jpg" alt="profile_img" class="profile_img_chld" />
+            </div>
         </div>
-      </div>
-      <div class="dv_profil_2 col-6">
-        <div class="dv_profil_2_chld">
-          <h1 class="hding_profil">Hello!</h1>
-          <h4 class="hding2_profil">
-            I'm Rishi Prakash Soni,<br />
-            a Front-End Developer Specialization in Website Designing With HTML,
-            CSS, JS & React.
-          </h4>
+        <div class="dv_profil_2 col-6">
+            <div class="dv_profil_2_chld">
+                <h1 class="hding_profil">Hello!</h1>
+                <h4 class="hding2_profil">
+                    I'm Rishi Prakash Soni,<br />
+                    a Front-End Developer Specialization in Website Designing With HTML,
+                    CSS, JS & React.
+                </h4>
+            </div>
         </div>
-      </div>
     </section>
-    <section class="sec_2">
-      <div class="sklls">
-        <div class="outer_skill">
-          <div class="inner_skill">
-            <div id="number_per">65%</div>
-          </div>
+    <section class="sec_2" id="skills">
+        <div class="skill_parent_div col-4">
+            <div class="sklls">
+                <div class="outer_skill">
+                    <div class="inner_skill">
+                        <div id="number_per">65%</div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260px" height="260px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#30CFD0" />
+                        <stop offset="100%" stop-color="#330867" />
+                    </linearGradient>
+                </defs>
+                <circle class="crcle" cx="131" cy="126" r="112" stroke-linecap="round" />
+            </svg>
         </div>
-      </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        width="250px"
-        height="250px"
-      >
-        <defs>
-          <linearGradient id="GradientColor">
-            <stop offset="0%" stop-color="#e91e63" />
-            <stop offset="100%" stop-color="#673ab7" />
-          </linearGradient>
-        </defs>
-        <circle cx="110" cy="110" r="90" stroke-linecap="round" />
-      </svg>
+        <div class="skill_parent_div col-4">
+            <div class="sklls">
+                <div class="outer_skill">
+                    <div class="inner_skill">
+                        <div id="number_per1">75%</div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260px" height="260px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#30CFD0" />
+                        <stop offset="100%" stop-color="#330867" />
+                    </linearGradient>
+                </defs>
+                <circle class="crcle1" cx="131" cy="126" r="112" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="skill_parent_div col-4">
+            <div class="sklls">
+                <div class="outer_skill">
+                    <div class="inner_skill">
+                        <div id="number_per2">85%</div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260px" height="260px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#30CFD0" />
+                        <stop offset="100%" stop-color="#330867" />
+                    </linearGradient>
+                </defs>
+                <circle class="crcle2" cx="131" cy="126" r="112" stroke-linecap="round" />
+            </svg>
+        </div>
     </section>
-  </body>
+    <script src="index.js"></script>
+</body>
+
 </html>

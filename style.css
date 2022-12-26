@@ -10,7 +10,7 @@
 header {
     height: 80px;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #3176a1;
     overflow: hidden;
     cursor: pointer;
 
@@ -73,9 +73,12 @@ header {
 
     .sec_1 {
         width: 100%;
-        position: relative;
-        z-index: -999;
-        height: 55vh;
+        height: 80vh;
+    }
+
+    .sec_2 {
+        width: 100%;
+        height: 90vh;
     }
 
 }
@@ -111,7 +114,7 @@ header {
         width: 26px;
         height: 26px;
         cursor: pointer;
-        z-index: 1;
+        z-index: 5;
     }
 
     .menu_btn>span,
@@ -153,6 +156,7 @@ header {
         background-color: rgba(241, 241, 248, 0.829);
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .35s;
+        z-index: 1;
     }
 
     .mnu_link {
@@ -179,8 +183,11 @@ header {
 
     .sec_1 {
         width: 100%;
-        position: relative;
-        z-index: -999;
-        height: 90vh;
+        height: 80vh;
+    }
+
+    .sec_2 {
+        width: 100%;
+        height: 55vh;
     }
 }
