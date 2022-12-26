@@ -103,4 +103,6 @@ p {
     align-items: center;
     padding-top: 10px;
     margin: 0;
+    font-weight: 600;
+    color: #3183a8;
 }
