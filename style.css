@@ -133,8 +133,6 @@ header {
         width: 75%;
         float: right;
         margin: 0px auto;
-        position: relative;
-        z-index: 999;
     }
 
     .menu_box {
