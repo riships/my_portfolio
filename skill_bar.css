@@ -33,35 +33,6 @@
     color: #555;
 }
 
-.crcle {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 25px;
-    stroke-dasharray: 705;
-    stroke-dashoffset: 705;
-    animation: skilfill 1.5s linear forwards;
-}
-
-.crcle1 {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 25px;
-    stroke-dasharray: 705;
-    stroke-dashoffset: 705;
-    animation: skilfill1 1.5s linear forwards;
-
-}
-
-.crcle2 {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 25px;
-    stroke-dasharray: 705;
-    stroke-dashoffset: 705;
-    animation: skilfill2 1.8s linear forwards;
-
-}
-
 .skill_parent_div {
     position: relative;
     height: 300px;
@@ -74,21 +45,66 @@ svg {
     right: 0;
 }
 
+.crcle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 25px;
+    stroke-dasharray: 705;
+    stroke-dashoffset: 705;
+}
+
+.cr_anim {
+    animation: skilfill .8s linear forwards;
+}
+
+.cr_anim1 {
+    animation: skilfill1 1s linear forwards;
+
+}
+
+.cr_anim2 {
+    animation: skilfill2 1.4s linear forwards;
+
+}
+
+.cr_anim3 {
+    animation: skilfill3 .5s linear forwards;
+
+}
+
+.cr_anim4 {
+    animation: skilfill4 1.3s linear forwards;
+
+}
+
+
 @keyframes skilfill {
     100% {
-        stroke-dashoffset: 247;
+        stroke-dashoffset: 458;
     }
 }
 
 @keyframes skilfill1 {
     100% {
-        stroke-dashoffset: 177;
+        stroke-dashoffset: 387;
     }
 }
 
 @keyframes skilfill2 {
     100% {
-        stroke-dashoffset: 106;
+        stroke-dashoffset: 246;
+    }
+}
+
+@keyframes skilfill3 {
+    100% {
+        stroke-dashoffset: 564;
+    }
+}
+
+@keyframes skilfill4 {
+    100% {
+        stroke-dashoffset: 282;
     }
 }
 

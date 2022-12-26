@@ -74,8 +74,9 @@ header {
     }
 
     .sec_1 {
+        padding-top: 50px;
         width: 100%;
-        height: 55vh;
+        height: 60vh
     }
 
     .sec_2 {
@@ -185,6 +186,7 @@ header {
     }
 
     .sec_1 {
+        padding-top: 50px;
         width: 100%;
         height: 55vh;
     }
@@ -200,6 +202,7 @@ header {
 
 .sec_2 {
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
 
 }
