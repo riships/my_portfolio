@@ -73,12 +73,14 @@ header {
 
     .sec_1 {
         width: 100%;
-        height: 80vh;
+        height: 55vh;
     }
 
     .sec_2 {
         width: 100%;
-        height: 90vh;
+        height: 100%;
+        background-color: #e1f6f7;
+        padding-top: 50px;
     }
 
 }
@@ -183,11 +185,20 @@ header {
 
     .sec_1 {
         width: 100%;
-        height: 80vh;
+        height: 55vh;
     }
 
     .sec_2 {
+        padding-top: 50px;
         width: 100%;
-        height: 55vh;
+        height: 100%;
+        background-color: #e1f6f7;
+
     }
+}
+
+.sec_2 {
+    display: flex;
+    flex-wrap: wrap;
+
 }
