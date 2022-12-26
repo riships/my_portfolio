@@ -11,8 +11,10 @@ header {
     height: 80px;
     width: 100%;
     background-color: #3176a1;
-    overflow: hidden;
     cursor: pointer;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
 
 }
 
@@ -116,7 +118,7 @@ header {
         width: 26px;
         height: 26px;
         cursor: pointer;
-        z-index: 5;
+        z-index: 1;
     }
 
     .menu_btn>span,
@@ -158,7 +160,6 @@ header {
         background-color: rgba(241, 241, 248, 0.829);
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .35s;
-        z-index: 1;
     }
 
     .mnu_link {
