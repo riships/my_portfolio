@@ -73,11 +73,10 @@ header {
         width: 80%;
     }
 
-    .sec_1 {
-        padding-top: 50px;
+    /* .sec_1 {
         width: 100%;
-        height: 60vh
-    }
+        margin-bottom: 50px;
+    } */
 
     .sec_2 {
         width: 100%;
@@ -185,11 +184,10 @@ header {
         width: 80%;
     }
 
-    .sec_1 {
-        padding-top: 50px;
+    /* .sec_1 {
         width: 100%;
-        height: 55vh;
-    }
+        margin-bottom: 50px;
+    } */
 
     .sec_2 {
         padding-top: 50px;
@@ -205,4 +203,9 @@ header {
     gap: 20px;
     flex-wrap: wrap;
 
+}
+
+.sec_1 {
+    width: 100%;
+    margin-bottom: 50px;
 }

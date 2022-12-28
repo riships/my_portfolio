@@ -57,12 +57,4 @@
     [class*="col-"] {
         width: 100%;
     }
-
-    .sec_1 {
-        width: 100%;
-        height: 95vh;
-        padding-top: 50px;
-    }
-
-
 }
