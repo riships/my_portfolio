@@ -67,13 +67,6 @@
 }
 
 /* for mobile only  */
-
-
-[class*="col-"] {
-    width: 100%;
-    padding: 20px;
-}
-
 @media (min-width: 950px) and (max-width: 1199px) {
 
     .col-md-1,
