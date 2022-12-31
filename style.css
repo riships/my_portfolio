@@ -177,20 +177,37 @@ header {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+
+}
+
+.sec_2 {
+    padding-top: 20px;
     background-color: #e1f6f7;
 }
 
-.skill_txt_p {
-    /* padding-top: 50px; */
-    width: 100%;
-
+.skilltxt {
+    display: block;
+    width: 150px;
     background-color: #e1f6f7;
+    margin: 0 0 0 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.skilltxt:hover {
+    font-size: 1.8rem;
+}
+
+.myTx {
+    border-bottom: 2px solid #30bec7;
 }
 
 .sec_1 {
-    width: 100%;
+
     margin-bottom: 50px;
-    height: 650px;
+    height: 700px;
 }
 
 @media (min-width:768px) {
