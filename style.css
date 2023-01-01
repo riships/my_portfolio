@@ -215,9 +215,7 @@ header {
     height: 450px;
 }
 
-.sec_1 {
-    height: 800px;
-}
+
 
 
 
@@ -227,6 +225,10 @@ header {
     .profile_img {
         height: 250px;
         max-width: 250px;
+    }
+
+    .sec_1 {
+        height: 800px;
     }
 
 }
