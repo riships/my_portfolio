@@ -216,43 +216,29 @@ header {
 }
 
 
+/* Less then Extra Small Devices */
+@media (min-width:200px) and (max-width:400px) {
+    .sec_1 {
+        height: 850px;
+    }
+
+    .profile_img {
+        height: 200px !important;
+        max-width: 200px !important;
+    }
+}
 
 
 
 @media (max-width:767px) {
-
-
-    .profile_img {
-        height: 250px;
-        max-width: 250px;
-    }
-
     .sec_1 {
         height: 800px;
     }
 
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {}
 
-    .profile_img {
-        height: 250px !important;
-        max-width: 250px !important;
-    }
+@media (min-width:992px) and (max-width:1199px) {}
 
-
-}
-
-@media (min-width:992px) and (max-width:1199px) {
-    .profile_img {
-        height: 250px !important;
-        max-width: 250px !important;
-    }
-}
-
-@media (min-width:1200px) {
-    .profile_img {
-        height: 250px !important;
-        max-width: 250px !important;
-    }
-}
+@media (min-width:1200px) {}
