@@ -28,6 +28,12 @@ header {
     margin: 0 auto;
 }
 
+.bkground {
+    background-image: url('/icons/img/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (min-width: 1099px) {
     #menu_toggle {
         display: none;
@@ -205,15 +211,12 @@ header {
 }
 
 .sec_1 {
-
-    margin-bottom: 50px;
-    height: 700px;
+    height: 750px;
 }
 
 @media (min-width:768px) {
     .sec_1 {
         width: 100%;
-        margin-bottom: 50px;
-        height: 400px;
+        height: 450px;
     }
 }
