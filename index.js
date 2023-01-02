@@ -12,7 +12,7 @@ setInterval(() => {
     if (counter == 35) {
         clearInterval();
     } else {
-        counter += 1;
+        counter++;
         number.innerHTML = counter + '%';
     }
 
@@ -21,7 +21,7 @@ setInterval(() => {
     if (counter1 == 45) {
         clearInterval();
     } else {
-        counter1 += 1;
+        counter1++;
         number1.innerHTML = counter1 + '%';
     }
 
@@ -30,7 +30,7 @@ setInterval(() => {
     if (counter2 == 65) {
         clearInterval();
     } else {
-        counter2 += 1;
+        counter2++;
         number2.innerHTML = counter2 + '%';
     }
 
@@ -39,7 +39,7 @@ setInterval(() => {
     if (counter3 == 20) {
         clearInterval();
     } else {
-        counter3 += 1;
+        counter3++;
         number3.innerHTML = counter3 + '%';
     }
 
@@ -48,7 +48,7 @@ setInterval(() => {
     if (counter4 == 60) {
         clearInterval();
     } else {
-        counter4 += 1;
+        counter4++;
         number4.innerHTML = counter4 + '%';
     }
 
