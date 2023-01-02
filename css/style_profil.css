@@ -38,7 +38,7 @@
 }
 
 .hding_profil {
-    font-size: 40px;
+    font-size: 3rem;
     padding-left: 10px;
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     background-clip: text;
@@ -47,7 +47,7 @@
 }
 
 .hding2_profil {
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-left: 10px;
     padding-top: 10px;
     line-height: 35px;
