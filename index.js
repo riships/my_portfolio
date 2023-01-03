@@ -53,3 +53,12 @@ setInterval(() => {
     }
 
 }, 15)
+function myScroll() {
+    var checkBox = document.getElementById("menu_toggle");
+    var overfl = document.getElementById("overfl");
+    if (checkBox.checked == true) {
+        overfl.style.overflow = "hidden";
+    } else {
+        overfl.style.overflow = "scroll";
+    }
+}
