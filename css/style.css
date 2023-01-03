@@ -36,7 +36,7 @@ header {
     background-position: center center;
 }
 
-@media only screen and (min-width: 1099px) {
+@media (min-width:900px) {
     #menu_toggle {
         display: none;
     }
@@ -79,9 +79,17 @@ header {
         border-image: linear-gradient(to bottom, #30CFD0 0%, #330867 100%) 1;
         width: 80%;
     }
+
+    .menu_box {
+        display: flex;
+        gap: 5px;
+        flex-wrap: nowrap;
+
+    }
 }
 
-@media only screen and (max-width: 1100px) {
+@media (max-width:900px) {
+    /* @media only screen and (max-width: 1100px) { */
 
     #menu_toggle {
         opacity: 0;
@@ -108,7 +116,7 @@ header {
     .menu_btn {
         position: absolute;
         top: 40px;
-        right: 50px;
+        right: 40px;
         width: 26px;
         height: 26px;
         cursor: pointer;
