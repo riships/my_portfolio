@@ -103,7 +103,6 @@ header {
 
     #menu_toggle:checked~.menu_box {
         visibility: visible !important;
-
     }
 
     .menu_btn {
