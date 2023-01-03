@@ -259,3 +259,17 @@ header {
 @media (min-width:992px) and (max-width:1199px) {}
 
 @media (min-width:1200px) {}
+
+.sec_3 {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_3_child_2 {
+    height: 650px;
+    width: 80%;
+    background-color: #3176a1;
+}
