@@ -269,11 +269,12 @@ header {
 }
 
 .sec_3_child_2 {
+    /* margin-right: 60px; */
     display: flex;
     flex-wrap: wrap;
-    place-items: right start;
+    /* place-items: right start; */
     flex-direction: column;
-    /* align-items: end; */
+    align-items: center;
     height: 650px;
     width: 80%;
     background-color: #3176a1;
