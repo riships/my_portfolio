@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/logo.css" />
     <link rel="stylesheet" href="css/skill_bar.css" />
     <link rel="stylesheet" href="css/style_profil.css" />
+    <link rel="stylesheet" href="/css/geitn_touch.css">
     <title>Portfolio-Rishi</title>
 </head>
 
@@ -175,11 +176,21 @@
             <h2>Get in Touch</h2>
             <p>Fee free to drop us a line below!</p>
             <form action="index.html">
-                <input type="text" name="fullName" id="fullName" placeholder="Enter your Name" required /><br>
-                <input type="email" name="emailId" id="emailId" placeholder="Enter your Email" required /><br>
-                <textarea name="userText" id="userText" cols="16" rows="10"
-                    placeholder="Type your message here..."></textarea><br>
-                <input type="button" value="Send">
+                <div class="inputBox">
+                    <input type="text" name="fullName" id="fullName" required />
+                    <label for="name" class="inputLabel">Enter your Name</label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="emailId" id="emailId" required />
+                    <label for="name" class="inputLabel">Enter your Email</label>
+                </div>
+                <div class="msgBox">
+                    <textarea name="userText" id="userText" cols="16" rows="10"
+                        placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="submitBox">
+                    <input type="button" value="Send">
+                </div>
             </form>
 
         </div>

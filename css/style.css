@@ -73,7 +73,7 @@ header {
     }
 
     .dv_profil_2_chld {
-        margin: 100px auto;
+        margin: 100px auto 0 auto;
         border-left-width: 3px;
         border-left-style: solid;
         border-image: linear-gradient(to bottom, #30CFD0 0%, #330867 100%) 1;
@@ -182,7 +182,7 @@ header {
     }
 
     .dv_profil_2_chld {
-        margin: 100px auto;
+        margin: 100px auto 0 auto;
         border-left-width: 3px;
         border-left-style: solid;
         border-image: linear-gradient(to bottom, #30CFD0 0%, #330867 100%) 1;
@@ -191,7 +191,7 @@ header {
 }
 
 .skill_baz {
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -204,18 +204,18 @@ header {
 }
 
 .skilltxt {
-    display: flex;
-    width: 150px;
+    /* display: flex;
+    width: 150px; */
     background-color: #e1f6f7;
     margin: 0 0 0 30px;
     font-weight: 600;
     font-size: 1.5rem;
-    height: 32px;
+    /* height: 32px; */
     transition: 0.5s;
 }
 
 .myhero_tg {
-    height: 40px;
+    padding: 30px 0;
 }
 
 .skilltxt:hover {
@@ -229,14 +229,14 @@ header {
 
 .sec_1 {
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
 
 /* Less then Extra Small Devices */
 @media (min-width:200px) and (max-width:400px) {
     .sec_1 {
-        height: 850px;
+        height: 800px;
     }
 
     .profile_img {
@@ -249,7 +249,7 @@ header {
 
 @media (max-width:767px) {
     .sec_1 {
-        height: 800px;
+        height: 850px;
     }
 
 }
@@ -266,9 +266,19 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 
 .sec_3_child_2 {
+    background: #317aa3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #317aa3, #417aa3);
+    background: -moz-linear-gradient(to top, #317aa3, #417aa3);
+    background: -o-linear-gradient(to top, #317aa3, #417aa3);
+    background: linear-gradient(to top, #317aa3, #417aa3);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
     /* margin-right: 60px; */
     display: flex;
     flex-wrap: wrap;
