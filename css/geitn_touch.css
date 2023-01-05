@@ -1,12 +1,13 @@
 input[type=text],
 input[type=email] {
     position: relative;
-    color: #23242a;
+    color: #ebebec;
     font-size: 0.9rem;
     padding: 10px 9px 10px 9px;
     margin: 12px 10px 10px 0px;
-    background: linear-gradient(0deg, transparent,
-            #45f4ff, #45f4ff);
+    /* background: linear-gradient(0deg, transparent,
+            #45f4ff, #45f4ff); */
+    background-color: #52989d;
     width: 100%;
     height: 45px;
     outline: none;
@@ -23,8 +24,9 @@ textarea {
     font-size: 0.9rem;
     padding: 10px 9px 10px 9px;
     margin: 12px 10px 10px 0px;
-    background: linear-gradient(0deg, transparent,
-            #45f4ff, #45f4ff);
+    /* background: linear-gradient(0deg, transparent,
+            #45f4ff, #45f4ff); */
+    background-color: #52989d;
     width: 100%;
     height: 90px;
     outline: none;
@@ -41,7 +43,7 @@ textarea {
     top: 15px;
     padding: 10px 10px 10px 15px;
     font-size: 1em;
-    color: #8f8f8f;
+    color: #ebebec;
     pointer-events: none;
     letter-spacing: 0.05em;
     transition: 0.3s;
@@ -60,8 +62,11 @@ textarea {
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
 
-
+.getinText>p,
+h2 {
+    color: #ebebec;
 }
 
 /* input[type=text]:hover,
@@ -79,10 +84,27 @@ input[type=email]:valid~.inputLabel {
     transition: .8s;
     color: rgb(224, 224, 224);
     transform: translateX(0px) translateY(-15px);
-    background-color: #4c88ad;
+    /* background-color: #4c88ad; */
     padding: 2px 5px 3px 5px;
     margin-left: 10px;
     border-radius: 25px;
     /* background: linear-gradient(0deg, transparent,
-            #45f4ff, #45f4ff); */
+            #322978, #322978); */
+    background-color: #322978;
+}
+
+textarea:focus~.inputLabel,
+textarea:valid~.inputLabel {
+    left: 10px;
+    font-size: 0.9rem;
+    transition: .8s;
+    color: rgb(224, 224, 224);
+    transform: translateX(0px) translateY(-15px);
+    /* background-color: #4c88ad; */
+    padding: 2px 5px 3px 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    /* background: linear-gradient(0deg, transparent,
+            #322978, #322978); */
+    background-color: #322978;
 }
