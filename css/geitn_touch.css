@@ -5,8 +5,6 @@ input[type=email] {
     font-size: 0.9rem;
     padding: 10px 9px 10px 9px;
     margin: 12px 10px 10px 0px;
-    /* background: linear-gradient(0deg, transparent,
-            #45f4ff, #45f4ff); */
     background-color: #52989d;
     width: 100%;
     height: 45px;
@@ -15,17 +13,24 @@ input[type=email] {
     top: 0;
     letter-spacing: 0.05em;
     border: 0px;
+    transition: 0.5s;
 
+}
+
+input[type=text]:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .4);
+}
+
+input[type=email]:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .4);
 }
 
 textarea {
     position: relative;
-    color: #23242a;
+    color: #ebebec;
     font-size: 0.9rem;
     padding: 10px 9px 10px 9px;
     margin: 12px 10px 10px 0px;
-    /* background: linear-gradient(0deg, transparent,
-            #45f4ff, #45f4ff); */
     background-color: #52989d;
     width: 100%;
     height: 90px;
@@ -34,7 +39,11 @@ textarea {
     top: 0;
     letter-spacing: 0.05em;
     border: 0px;
+    transition: 0.5s;
+}
 
+textarea:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .4);
 }
 
 .inputLabel {
@@ -77,12 +86,6 @@ h2 {
     font-size: 1.5em;
 }
 
-/* input[type=text]:hover,
-input[type=email]:hover {
-    border: 1px solid #b6bfc0;
-    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
-} */
-
 input[type=text]:focus~.inputLabel,
 input[type=text]:valid~.inputLabel,
 input[type=email]:focus~.inputLabel,
@@ -92,13 +95,20 @@ input[type=email]:valid~.inputLabel {
     transition: .8s;
     color: rgb(224, 224, 224);
     transform: translateX(0px) translateY(-15px);
-    /* background-color: #4c88ad; */
     padding: 2px 5px 3px 5px;
     margin-left: 10px;
     border-radius: 25px;
-    /* background: linear-gradient(0deg, transparent,
-            #322978, #322978); */
-    background-color: #322978;
+}
+
+input[type=text]:focus~.inputLabel,
+input[type=text]:valid~.inputLabel {
+    background-color: #3183a8;
+}
+
+input[type=email]:focus~.inputLabel,
+input[type=email]:valid~.inputLabel {
+    background-color: #316b9b;
+
 }
 
 textarea:focus~.inputLabel,
@@ -108,11 +118,25 @@ textarea:valid~.inputLabel {
     transition: .8s;
     color: rgb(224, 224, 224);
     transform: translateX(0px) translateY(-15px);
-    /* background-color: #4c88ad; */
     padding: 2px 5px 3px 5px;
     margin-left: 10px;
     border-radius: 25px;
-    /* background: linear-gradient(0deg, transparent,
-            #322978, #322978); */
-    background-color: #322978;
+    background-color: #31518d;
+}
+
+input[type=button] {
+    height: 50px;
+    width: 120px;
+    background-color: #52989d;
+    outline: none;
+    border: 0;
+    font-size: 1em;
+    color: #ebebec;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+input[type=button]:hover {
+    opacity: 0.7;
+    font-size: 1.2em;
 }
