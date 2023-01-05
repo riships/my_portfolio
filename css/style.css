@@ -243,6 +243,7 @@ header {
         height: 200px !important;
         max-width: 200px !important;
     }
+
 }
 
 
@@ -254,11 +255,15 @@ header {
 
 }
 
+/* Different width for Different Devices */
+
+/* @media (max-width:767px) {}
+
 @media (min-width:768px) and (max-width:991px) {}
 
 @media (min-width:992px) and (max-width:1199px) {}
 
-@media (min-width:1200px) {}
+@media (min-width:1200px) {} */
 
 .sec_3 {
     height: 800px;
@@ -272,21 +277,20 @@ header {
 .sec_3_child_2 {
     background: #317aa3;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(0deg, transparent, #3176a1, #3176a1);
+    /* background: -webkit-linear-gradient(0deg, transparent, #3176a1, #3176a1);
     background: -moz-linear-gradient(0deg, transparent, #3176a1, #3176a1);
     background: -o-linear-gradient(0deg, transparent, #3176a1, #3176a1);
     background: linear-gradient(0deg, transparent, #3176a1, #3176a1);
-    background: linear-gradient(0deg, transparent, #3176a1, #3176a1);
+    background: linear-gradient(0deg, transparent, #3176a1, #3176a1); */
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
-    /* margin-right: 60px; */
     display: flex;
     flex-wrap: wrap;
-    /* place-items: right start; */
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 650px;
     width: 80%;
-    /* background-color: #330867; */
+    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
 }
