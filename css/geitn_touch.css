@@ -4,12 +4,31 @@ input[type=email] {
     color: #23242a;
     font-size: 0.9rem;
     padding: 10px 9px 10px 9px;
-    margin: 12px 10px 10px 18px;
-    background-color: transparent;
+    margin: 12px 10px 10px 0px;
+    background: linear-gradient(0deg, transparent,
+            #45f4ff, #45f4ff);
     width: 100%;
     height: 45px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    top: 0;
+    letter-spacing: 0.05em;
+    border: 0px;
+
+}
+
+textarea {
+    position: relative;
+    color: #23242a;
+    font-size: 0.9rem;
+    padding: 10px 9px 10px 9px;
+    margin: 12px 10px 10px 0px;
+    background: linear-gradient(0deg, transparent,
+            #45f4ff, #45f4ff);
+    width: 100%;
+    height: 90px;
+    outline: none;
+    border-radius: 25px;
     top: 0;
     letter-spacing: 0.05em;
     border: 0px;
@@ -18,7 +37,7 @@ input[type=email] {
 
 .inputLabel {
     position: absolute;
-    left: 20px;
+    left: 0px;
     top: 15px;
     padding: 10px 10px 10px 15px;
     font-size: 1em;
@@ -30,8 +49,19 @@ input[type=email] {
 
 .inputBox {
     width: 80%;
-    margin-top: 35px;
+    margin-top: 15px;
     position: relative;
+}
+
+.getinText {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 /* input[type=text]:hover,
@@ -41,13 +71,18 @@ input[type=email]:hover {
 } */
 
 input[type=text]:focus~.inputLabel,
-input[type=email]:focus~.inputLabel {
-    left: 20px;
+input[type=text]:valid~.inputLabel,
+input[type=email]:focus~.inputLabel,
+input[type=email]:valid~.inputLabel {
+    left: 10px;
     font-size: 0.9rem;
+    transition: .8s;
     color: rgb(224, 224, 224);
     transform: translateX(0px) translateY(-15px);
-    background-color: #397aa3;
-    padding: 5px 5px 5px 5px;
+    background-color: #4c88ad;
+    padding: 2px 5px 3px 5px;
     margin-left: 10px;
     border-radius: 25px;
+    /* background: linear-gradient(0deg, transparent,
+            #45f4ff, #45f4ff); */
 }
