@@ -69,6 +69,14 @@ h2 {
     color: #ebebec;
 }
 
+.getinText>p {
+    font-size: 1em;
+}
+
+.getinText>p {
+    color: #ebebec;
+}
+
 /* input[type=text]:hover,
 input[type=email]:hover {
     border: 1px solid #b6bfc0;

@@ -244,12 +244,12 @@ header {
         max-width: 200px !important;
     }
 
-    .getinText>p {
-        font-size: 0.8em;
+    .getinText p {
+        font-size: 0.8em !important;
     }
 
-    .getinText>h2 {
-        font-size: 1.5em;
+    .getinText h2 {
+        font-size: 1.5em !important;
     }
 
 }
