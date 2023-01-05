@@ -124,7 +124,7 @@ textarea:valid~.inputLabel {
     background-color: #31518d;
 }
 
-input[type=button] {
+input[type=submit] {
     height: 50px;
     width: 120px;
     background-color: #52989d;
@@ -136,7 +136,7 @@ input[type=button] {
     transition: 0.5s;
 }
 
-input[type=button]:hover {
+input[type=submit]:hover {
     opacity: 0.7;
     font-size: 1.2em;
 }
