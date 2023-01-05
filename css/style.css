@@ -272,32 +272,8 @@ header {
 @media (min-width:992px) and (max-width:1199px) {}
 
 @media (min-width:1200px) {} */
-
 .sec_3 {
     height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.sec_3_child_2 {
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
-    background: -moz-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
-    background: -o-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
-    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
-    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 650px;
-    width: 80%;
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 6);
+    width: 100%;
+    position: relative;
 }

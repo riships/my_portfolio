@@ -1,9 +1,55 @@
-.sec_3_child_1 {
-    height: 600px;
+.sec_3_main-dv {
+    width: 90%;
+    height: 800px;
+    padding: 100px 0 0 0;
+    margin: 0 0 50px 50px;
+}
+
+.sec_3_child_2a {
+    margin-top: 50px;
+    margin-right: 130px;
+    height: 650px;
     width: 40%;
-    background-color: aquamarine;
+    float: right;
+}
+
+.sec_3_child_1 {
+    float: left;
+    padding: 10px 0 20px 10px;
+    margin: 5px auto;
+    height: 550px;
+    width: 35%;
+    background: -webkit-linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    background: -moz-linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    background: -o-linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    position: absolute;
+    top: 145px;
+    left: 200px;
+}
+
+.sec_3_child_2 {
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    background: -moz-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    background: -o-linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    height: 650px;
+    width: 80%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 6);
+    float: right;
+    margin-left: 50px;
 }
 
 .s3child1 {
+    width: 80%;
     height: 50px;
+}
+
+.txt-clr {
+    font-size: 0.8em;
+    color: #ebebec;
+    padding: 0 0 0 10px;
 }

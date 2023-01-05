@@ -66,15 +66,12 @@ textarea:hover {
 
 .getinText {
     padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    margin-left: 60px;
 }
 
 .getinText>p,
 h2 {
+    padding: 10px 0;
     color: #ebebec;
 }
 
