@@ -139,7 +139,7 @@ input[type=submit]:hover {
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 6);
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
     .getinText {
         padding-top: 80px;
         margin-left: 35px;
@@ -155,10 +155,7 @@ input[type=submit]:hover {
 }
 
 @media (min-width:992px) and (max-width:1199px) {
-    .getinText {
-        padding-top: 50px;
-        margin-left: 35px;
-    }
+
 
 
 }
@@ -168,4 +165,4 @@ input[type=submit]:hover {
         padding-top: 50px;
         margin-left: 60px;
     }
-}
+} */

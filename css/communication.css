@@ -1,5 +1,5 @@
 /* Different width for Different Devices */
-@media (min-width:399px) and (max-width:766px) {
+@media(max-width:599px) {
     .sec_3_main-dv {
         width: 90%;
         height: 1100px;
@@ -38,10 +38,15 @@
         margin-top: 50px;
         height: 650px;
         width: 80%;
+    }
+
+    .getinText {
+        padding-top: 50px;
+        margin-left: 35px;
     }
 }
 
-@media (min-width:767px) {
+@media (min-width:600px) and (max-width:767px) {
     .sec_3_main-dv {
         width: 90%;
         height: 1100px;
@@ -78,9 +83,13 @@
 
     .sec_3_child_2a {
         margin-top: 50px;
-        margin-right: 20%;
         height: 650px;
-        width: 60%;
+        width: 75%;
+    }
+
+    .getinText {
+        padding-top: 50px;
+        margin-left: 35px;
     }
 }
 
@@ -121,9 +130,13 @@
 
     .sec_3_child_2a {
         margin-top: 50px;
-        margin-right: 20%;
         height: 650px;
-        width: 60%;
+        width: 80%;
+    }
+
+    .getinText {
+        padding-top: 50px;
+        margin-left: 35px;
     }
 }
 
@@ -179,6 +192,11 @@
         width: 40%;
         float: right;
     }
+
+    .getinText {
+        padding-top: 50px;
+        margin-left: 35px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -233,6 +251,11 @@
         height: 650px;
         width: 40%;
         float: right;
+    }
+
+    .getinText {
+        padding-top: 50px;
+        margin-left: 35px;
     }
 }
 
