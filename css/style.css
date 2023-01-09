@@ -272,8 +272,3 @@ header {
 @media (min-width:992px) and (max-width:1199px) {}
 
 @media (min-width:1200px) {} */
-.sec_3 {
-    height: 800px;
-    width: 100%;
-    position: relative;
-}
