@@ -44,6 +44,7 @@ setInterval(() => {
     }
 
 }, 15)
+
 setInterval(() => {
     if (counter4 == 60) {
         clearInterval();
@@ -53,6 +54,7 @@ setInterval(() => {
     }
 
 }, 15)
+// Scroll disabled while navbar is active
 function myScroll() {
     var checkBox = document.getElementById("menu_toggle");
     var overfl = document.getElementById("overfl");
@@ -62,3 +64,12 @@ function myScroll() {
         overfl.style.overflow = "scroll";
     }
 }
+// while you click one of the nav link navbar will be inactive
+
+// let navLinks = document.getElementsByClassName('mnu_link');
+// for (let i = 0; i < mnu_link.length; i++) {
+//     mnu_link[i].addEventListener('click', function () {
+//         let checkBox2 =
+//     })
+
+// }
