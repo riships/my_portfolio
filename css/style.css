@@ -61,13 +61,14 @@ header {
         background-color: antiquewhite;
         border-radius: 8px;
         margin: 5px 5px 0 5px;
+        transition: 0.5s;
     }
 
     .hdr_menu ul li a:hover {
         background-color: rgb(236, 186, 120);
         box-shadow: 0 5px 10px;
-        transition: box-shadow 0.5s ease-in-out rgba(12, 1, 1, 0.4);
-        color: rgba(12, 1, 1, 0.4);
+        box-shadow: rgba(12, 1, 1, 0.4);
+        color: black;
 
     }
 
