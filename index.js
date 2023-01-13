@@ -67,9 +67,6 @@ function myScroll() {
 // while you click one of the nav link navbar will be inactive
 var mnu_link = document.querySelectorAll('.mnu_link');
 var uncheck = document.querySelector('#menu_toggle');
-for (i = 0; i < mnu_link; i++) {
-    mnu_link[i].addEventListener('click', evenUn, false);
-}
 function evenUn() {
     if (uncheck.checked == true) {
         uncheck.checked = false;
