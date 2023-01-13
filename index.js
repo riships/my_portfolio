@@ -73,3 +73,24 @@ function myScroll() {
 //     })
 
 // }
+// const matches = document.querySelectorAll(".mnu_link", click);
+// function uncheck() {
+//     let inputs = document.getElementsByClassName('mnu_link');
+//     inputs.checked = false;
+// }
+// window.onload = function () {
+//     window.addEventListener('load', check, false);
+//}
+var mnu_link = document.querySelectorAll('.mnu_link');
+var uncheck = document.querySelector('#menu_toggle');
+for (i = 0; i < mnu_link; i++) {
+    mnu_link[i].addEventListener('click', evenUn, false);
+}
+function evenUn() {
+    if (uncheck.checked == true) {
+        uncheck.checked = flase;
+    }
+    else {
+        uncheck.checked = true;
+    }
+};
