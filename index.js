@@ -88,7 +88,7 @@ for (i = 0; i < mnu_link; i++) {
 }
 function evenUn() {
     if (uncheck.checked == true) {
-        uncheck.checked = flase;
+        uncheck.checked = false;
     }
     else {
         uncheck.checked = true;
