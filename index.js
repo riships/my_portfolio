@@ -70,6 +70,7 @@ var uncheck = document.querySelector('#menu_toggle');
 function evenUn() {
     if (uncheck.checked == true) {
         uncheck.checked = false;
+        overfl.style.overflow = "scroll";
     }
     else {
         uncheck.checked = true;
