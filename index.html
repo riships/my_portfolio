@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/935793f8de.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/logo.css">
@@ -210,7 +211,7 @@
                         <h2>Get in Touch</h2>
                         <p>Feel free to drop us a line below!</p>
                     </div>
-                    <form>
+                    <form id="contact-form">
                         <div class="inputBox">
                             <input type="text" name="fullName" id="fullName" required>
                             <label for="fullName" class="inputLabel">Name</label>
@@ -238,7 +239,9 @@
         </div>
     </section>
 
-    <script src="index.js"></script>
+    <script src="Js/index.js"></script>
+    <script src="Js/contact_us.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
