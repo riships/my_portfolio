@@ -55,21 +55,18 @@ header {
     .hdr_menu ul li a {
         text-decoration: none;
         padding: 10px 30px;
-        color: black;
+        color: #e1f6f7;
         font-size: 0.8rem;
         font-weight: bold;
-        background-color: antiquewhite;
+        background-color: #3176a1;
         border-radius: 8px;
         margin: 5px 5px 0 5px;
         transition: 0.5s;
     }
 
     .hdr_menu ul li a:hover {
-        background-color: rgb(236, 186, 120);
-        box-shadow: 0 5px 10px;
-        box-shadow: rgba(12, 1, 1, 0.4);
-        color: black;
-
+        background-color: #3176a1;
+        box-shadow: 0 5px 10px rgba(12, 1, 1, 0.4);
     }
 
     .dv_profil_2_chld {
@@ -204,7 +201,7 @@ header {
 }
 
 .skilltxt {
-    width: 150px;
+    width: 210px;
     background-color: #e1f6f7;
     margin: 0 0 0 30px;
     font-weight: 600;

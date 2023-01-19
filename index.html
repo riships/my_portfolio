@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/935793f8de.js" crossorigin="anonymous"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/logo.css">
@@ -211,7 +210,7 @@
                         <h2>Get in Touch</h2>
                         <p>Feel free to drop us a line below!</p>
                     </div>
-                    <form id="contact-form">
+                    <form id="contact-form" action="javascript: sendEmail()">
                         <div class="inputBox">
                             <input type="text" name="fullName" id="fullName" required>
                             <label for="fullName" class="inputLabel">Name</label>
@@ -233,15 +232,24 @@
         </div>
     </section>
     <section class="sec_4" id="projects">
-        <h5 class="skilltxt"><span class="myTx">My Skills</span></h5>
-        <div class="row">
-            <div class="col-xs-6"></div>
-        </div>
+        <h5 class="skilltxt"><span class="myTx">My</span> Projects</h5>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
     </section>
 
     <script src="Js/index.js"></script>
     <script src="Js/contact_us.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
 </body>
+
 
 </html>
