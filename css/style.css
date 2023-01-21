@@ -5,7 +5,6 @@
     margin: 0 auto;
     padding: 0;
     font-family: 'Unbounded', cursive;
-    font-size: 20px;
 }
 
 header {
@@ -62,7 +61,9 @@ header {
         background-color: #3176a1;
         border-radius: 8px;
         margin: 5px 5px 0 5px;
+        font-size: 18px;
         transition: 0.5s;
+
     }
 
     .hdr_menu ul li a:hover {
