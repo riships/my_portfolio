@@ -38,12 +38,12 @@
 }
 
 .swiper-pagination-bullet {
-  background-color: #6E93f7;
+  background-color: linear-gradient(circle #30CFD0 0%, #330867 100%) 1;
   opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4070F4;
+  background-color: linear-gradient(circle #30CFD0 0%, #330867 100%) 1;
 }
 
 @media screen and (max-width: 768px) {
