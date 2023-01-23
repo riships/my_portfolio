@@ -55,3 +55,44 @@
     display: none;
   }
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 16px;
+  padding: 16px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 200px;
+  margin-right: 16px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 18px;
+  margin: 8px 0;
+  line-height: 1.5;
+  color: #555;
+}
+
+.project-card .project-links {
+  margin-top: 8px;
+  display: flex;
+}
+
+.project-card .project-links a {
+  font-size: 18px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: #0077c9;
+}
