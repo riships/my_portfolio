@@ -130,3 +130,23 @@
 .user-info small {
   color: #545d7a;
 }
+
+.project-links>a {
+  color: #e1f6f7;
+  transition: 0.5s;
+  margin: 0 1rem;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 4px;
+  margin: 0 25px;
+}
+
+.project-links {
+  margin-top: 30px;
+}
+
+.project-links>a:hover {
+  background-color: #3176a1;
+  box-shadow: 0 5px 10px rgba(12, 1, 1, 0.4);
+
+}
