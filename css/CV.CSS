@@ -1,0 +1,183 @@
+:root {
+    --border1: #000;
+    --border2: #000;
+    --dividerborder: #000;
+    --databorder: #000;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+    font: 10pt "arial";
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 0mm;
+    margin: 10mm auto;
+    border: 0px #D3D3D3 hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.subpage {
+    padding: 5mm;
+    border: 0mm black solid;
+    height: 297mm;
+    outline: 0mm #21a041 hidden;
+}
+
+@page {
+    size: A4 portrait;
+    margin: 0;
+}
+
+@media print {
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+        background: #fff;
+    }
+
+    .page {
+        margin: 0;
+        padding: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+
+    button.print-button {
+        display: none;
+    }
+}
+
+button.print-button {
+    width: 100px;
+    height: 100px;
+    position: fixed !important;
+    right: 20px;
+    top: 20px;
+}
+
+span.print-icon,
+span.print-icon::before,
+span.print-icon::after,
+button.print-button:hover .print-icon::after {
+    border: solid 4px #333;
+}
+
+span.print-icon::after {
+    border-width: 2px;
+}
+
+button.print-button {
+    position: relative;
+    padding: 0;
+    border: 0;
+
+    border: none;
+    background: transparent;
+}
+
+span.print-icon,
+span.print-icon::before,
+span.print-icon::after,
+button.print-button:hover .print-icon::after {
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+span.print-icon {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20%;
+
+    width: 60%;
+    height: 35%;
+    background: #fff;
+    border-radius: 20% 20% 0 0;
+}
+
+span.print-icon::before {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 12%;
+    right: 12%;
+    height: 110%;
+
+    transition: height .2s .15s;
+}
+
+span.print-icon::after {
+    content: " ";
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    right: 12%;
+    height: 0%;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: center;
+    background-image: linear-gradient(to top,
+            #fff 0, #fff 14%,
+            #333 14%, #333 28%,
+            #fff 28%, #fff 42%,
+            #333 42%, #333 56%,
+            #fff 56%, #fff 70%,
+            #333 70%, #333 84%,
+            #fff 84%, #fff 100%);
+
+    transition: height .2s, border-width 0s .2s, width 0s .2s;
+}
+
+button.print-button:hover {
+    cursor: pointer;
+}
+
+button.print-button:hover .print-icon::before {
+    height: 0px;
+    transition: height .2s;
+}
+
+button.print-button:hover .print-icon::after {
+    height: 120%;
+    transition: height .2s .15s, border-width 0s .16s;
+}
+
+table.main-table tr td table.second-table tr td {
+    border-collapse: collapse;
+}
+
+.watermark {
+    background: url('URL');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+table.main-table,
+table.second-table {
+    border: 0px solid var(--border1);
+}

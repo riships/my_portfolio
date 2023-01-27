@@ -1,7 +1,7 @@
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
   spaceBetween: 25,
-  loop: true,
+  loop: false,
   centerSlide: 'true',
   fade: 'true',
   grabCursor: 'true',
@@ -11,8 +11,8 @@ var swiper = new Swiper(".slide-content", {
     dynamicBullets: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next1",
+    prevEl: ".swiper-button-prev1",
   },
 
   breakpoints: {
