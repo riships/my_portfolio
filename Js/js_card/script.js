@@ -1,4 +1,7 @@
 var swiper = new Swiper(".slide-content", {
+  autoplay: {
+    delay: 5000,
+  },
   slidesPerView: 3,
   spaceBetween: 25,
   loop: false,
