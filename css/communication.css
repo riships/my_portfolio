@@ -260,6 +260,7 @@
         height: 650px;
         width: 40%;
         float: right;
+        display: block;
     }
 
     .getinText {
