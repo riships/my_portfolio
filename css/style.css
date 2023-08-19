@@ -61,7 +61,7 @@ header {
         background-color: #3176a1;
         border-radius: 8px;
         margin: 5px 5px 0 5px;
-        font-size: 18px;
+        /* font-size: 18px; */
         transition: 0.5s;
 
     }
@@ -169,7 +169,7 @@ header {
         display: block;
         padding: 12px 24px;
         color: rgba(241, 241, 248, 0.829);
-        font-size: 20px;
+        /* font-size: 20px; */
         font-weight: 600;
         text-decoration: none;
         /* transition-duration: .25s; */
