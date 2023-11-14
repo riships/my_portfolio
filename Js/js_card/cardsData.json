@@ -1,0 +1,60 @@
+{
+    "sliderData": [
+        {
+            "imgUrl": "../../icons/img/slider_image/first_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/second_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/third_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/fourth_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/fifth_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/sixth_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/seventh_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        },
+        {
+            "imgUrl": "../../icons/img/slider_image/eightth_img.png",
+            "title": "Product Landing Page",
+            "desc": "this is a demo only",
+            "link": "#",
+            "preView": "#"
+        }
+    ]
+}
