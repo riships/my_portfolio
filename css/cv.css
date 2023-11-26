@@ -181,3 +181,21 @@ table.main-table,
 table.second-table {
     border: 0px solid var(--border1);
 }
+table.theit tr td {
+    line-height: 18px;
+}
+
+.str-png {
+    height: 15px;
+    width: 15px;
+}
+
+/* ul li::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../icons/img/start.png');
+    background-size: cover;
+    margin-right: 10px;
+} */
